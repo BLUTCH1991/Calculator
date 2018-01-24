@@ -31,7 +31,7 @@ public class AdditionTest {
 		this.add.make(2);
 		
 		org.junit.Assert.assertNotNull(this.add);
-		org.junit.Assert.assertEquals(3,this.add.value);
+		org.junit.Assert.assertEquals(1,this.add.value);
 	}
 
 	@Test
