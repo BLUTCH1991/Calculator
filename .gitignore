@@ -4,3 +4,8 @@ bin/**
 .classpath
 .project
 .settings/**
+Checkstyle
+command
+severity
+VerboseListener
+here
