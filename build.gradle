@@ -13,3 +13,18 @@ repositories {
 dependencies {
     compile 'junit:junit:4.12'
 }
+
+checkstyle{
+	ignoreFailures = true
+}
+
+findbugs{
+	ignoreFailures = true
+	findbugsTest.enabled = false
+	classes=""
+	effort = "max"
+}
+
+pmd{
+	ignoreFailures = true
+}
