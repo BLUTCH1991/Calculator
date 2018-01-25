@@ -17,6 +17,10 @@ public class Addition {
 	 * @param b
 	 */
 	public void make(int b) {
+		int nb = 42;
+		if (nb == 42 && nb != 43) {
+			nb += 2;
+		}
 		this.value += b;
 	}
 
