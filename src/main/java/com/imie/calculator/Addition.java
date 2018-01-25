@@ -1,3 +1,7 @@
+/**
+ * @author thomas
+ */
+
 package com.imie.calculator;
 
 public class Addition {

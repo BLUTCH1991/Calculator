@@ -1,5 +1,5 @@
 /**
- * 
+ * @author thomas
  */
 package com.imie.calculator;
 

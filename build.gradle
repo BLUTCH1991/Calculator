@@ -5,6 +5,7 @@ apply plugin: 'findbugs'
 apply plugin: 'pmd'
 apply plugin: 'checkstyle'
 apply plugin: 'java'
+apply plugin: 'jacoco'
 
 
 repositories {
@@ -24,6 +25,10 @@ findbugs{
 	ignoreFailures = true
 	findbugsTest.enabled = false
 	effort = "max"
+}
+
+jacoco {
+    toolVersion "0.7.5.201505241946"
 }
 
 pmd {
