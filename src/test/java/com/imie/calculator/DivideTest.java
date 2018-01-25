@@ -33,7 +33,7 @@ public class DivideTest {
 	@Test
 	public void testGetValue() {
 		org.junit.Assert.assertNotNull(this.div);
-		org.junit.Assert.assertEquals(100,this.div.getValue());
+		org.junit.Assert.assertEquals(10,this.div.getValue());
 	}
 
 }
