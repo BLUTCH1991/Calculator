@@ -14,7 +14,7 @@ dependencies {
     compile 'junit:junit:4.12'
 }
 
-/*checkstyle{
+checkstyle{
 	ignoreFailures = true
 }
 
@@ -27,4 +27,4 @@ findbugs{
 
 pmd{
 	ignoreFailures = true
-}*/
+}
