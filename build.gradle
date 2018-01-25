@@ -21,7 +21,7 @@ checkstyle{
 findbugs{
 	ignoreFailures = true
 	findbugsTest.enabled = false
-	classes=""
+	//classes=""
 	effort = "max"
 }
 
