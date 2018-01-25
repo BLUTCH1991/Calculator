@@ -4,7 +4,7 @@ apply plugin: 'idea'
 apply plugin: 'findbugs'
 apply plugin: 'pmd'
 apply plugin: 'checkstyle'
-apply plugin: 'javadoc'
+apply plugin: 'java'
 
 
 repositories {
@@ -29,4 +29,8 @@ findbugs{
 
 pmd{
 	ignoreFailures = true
+}
+
+task myJavadocs(type: Javadoc) {
+  source = sourceSets.main.allJava
 }
